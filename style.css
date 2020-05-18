@@ -23,8 +23,8 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  width: 980px;
+  width: 100%;
+  max-width: 980px;
   margin: auto;
 }
 
@@ -93,7 +93,9 @@ section.hero {
 }
 
 section.hero .container {
-  width: 980px;
+
+  width: 100%;
+  max-width: 980px;
   margin: auto;
 
   display: flex;
@@ -118,7 +120,8 @@ main {
 CARDS
 ==================*/
 .cards {
-  width: 980px;
+  width: 100%;
+  max-width: 980px;
   margin: auto;
 
   display: grid;
@@ -300,7 +303,8 @@ FORM
 }
 
 #form form {
-  width: 980px;
+  width: 100%;
+  max-width: 980px;
   background: white;
   
   padding: 40px;
